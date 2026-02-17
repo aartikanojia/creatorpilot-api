@@ -46,7 +46,6 @@ creatorpilot-api/
 │   └── middleware/
 │       ├── request_id.py        # Request ID tracking
 │       └── security_headers.py  # Security headers middleware
-├── Dockerfile
 ├── requirements.txt
 ├── .gitignore
 └── README.md
