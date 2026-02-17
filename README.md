@@ -48,7 +48,7 @@ creatorpilot-api/
 │       └── security_headers.py  # Security headers middleware
 ├── Dockerfile
 ├── requirements.txt
-├── .env.example
+├── .gitignore
 └── README.md
 ```
 
