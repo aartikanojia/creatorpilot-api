@@ -15,7 +15,7 @@ class Settings(BaseSettings):
     )
 
     # API Configuration
-    app_name: str = "Context Hub API"
+    app_name: str = "CreatorPilot API"
     app_version: str = "1.0.0"
     environment: str = "development"
 
@@ -23,7 +23,7 @@ class Settings(BaseSettings):
     llm_provider: str = "gemini-flash-latest"
 
     # MCP Client Configuration
-    mcp_base_url: str = "http://context-hub-mcp:8001"
+    mcp_base_url: str = "http://creatorpilot-mcp:8001"
     mcp_timeout: float = 30.0
 
     # Server Configuration

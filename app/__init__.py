@@ -1,1 +1,1 @@
-"""Context Hub API Gateway"""
+"""CreatorPilot API Gateway"""

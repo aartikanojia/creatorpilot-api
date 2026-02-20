@@ -415,6 +415,10 @@ When extending this API:
 4. Include logging for debugging
 5. Add tests for new features
 
+## Recent Updates
+- **Plan Limits Enforcement**: Added robust error proxying and plan-based request gating based on the `FORCE_PRO_MODE` integration.
+- **Service Resiliency**: Deepened error handling and logging for backend HTTP proxy errors to the MCP server.
+
 ## License
 
 Internal Use Only

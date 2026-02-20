@@ -88,7 +88,7 @@ class MCPClient:
 
                 # Transform MCP response to gateway response format
                 result = ExecuteResponse(
-                    answer=data.get("content", ""),
+                    answer=data.get("content") or "",
                     confidence=data.get("metadata", {}).get("confidence", 0.0),
                     tools_used=data.get("tools_used", []),
                     content_type=data.get("content_type"),
